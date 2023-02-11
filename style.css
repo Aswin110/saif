@@ -1,0 +1,99 @@
+.body{
+    background: #1f2937;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 150px;
+}
+.logo{
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 16px;
+}
+.links{
+    display: flex;
+    gap: 16px;
+}
+a{
+    color: #999;
+    margin: 16px;
+    display: flex;
+    text-decoration: none;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 200px;
+    padding: 24px;
+    color: white;
+}
+img{
+    width: 300px;
+    height: 200px;
+}
+.second-header{
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+}
+.htext{
+    font-weight: bolder;
+    font-size: 30px;
+}
+.signup{
+    background: #3882f6;
+    width: 70px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    padding: 24px;
+    font-size: 24px;
+    font-weight: 900;
+}
+.infos{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    gap: 48px;
+    font-size: 12px;
+    margin-bottom: 100px;
+}
+.empty{
+    width:100px ;
+    height: 100px;
+    border-radius: 8px;
+    border:1px solid #3882f6;
+    background: white;
+}
+.button{
+    width: 100px;
+}
+.quote{
+    background: #e5e7eb;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quotes{
+    width: 600px;
+}
+.quote-text{
+    color: #999;
+    font-size: 20px;
+    font-style: italic;
+}
+.author{
+    font-weight: 900;
+    color: black;
+    display: flex;
+    justify-content: flex-end;
+}
